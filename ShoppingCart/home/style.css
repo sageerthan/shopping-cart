@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins',sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body{
+    background:rgb(71, 179, 237);;
+}
+.msg{
+    position:sticky;
+    top:0; left:0; right:0;
+    padding:15px 10px;
+    background: white;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 2px solid black;
+    color:black;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    padding-bottom: 30px;
+ }
+ .form-container form{
+    width: 500px;
+    border-radius: 5px;
+    border:2px solid black;
+    box-shadow:4px 4px 10px rgba(0, 0, 0, 0.2) ;
+    padding:20px;
+    text-align: center;
+    background-color: rgb(216, 213, 213);
+ }
+ .form-container form h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color:black;
+ }
+ .form-container form .box{
+    width: 100%;
+    border-radius: 5px;
+    border:2px solid black;
+    padding:12px 14px;
+    font-size: 18px;
+    margin:10px 0;
+ }
+ .form-container form p{
+    margin-top: 20px;
+    font-size: 20px;
+    color:black;
+ }
+ .form-container form p a{
+    color:red;
+ }
+ 
+ .form-container form p a:hover{
+    text-decoration: underline;
+    color: green;
+ }
+ .btn{
+    background-color:rgb(43, 143, 43);
+    margin-top: 10px;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+ }
+ .btn:hover{
+   background:black;
+   color: aliceblue;
+ }
+ 

@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--black);
+    outline: none;
+}
+
+body {
+    background: rgb(71, 179, 237);
+}
+
+.products .card-shadow {
+    background: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    height: 330px;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 150px;
+    float: left;
+}
+
+.card-shadow img {
+    max-width: 100%;
+    height: auto;
+}
+
+.fa-star,
+.fa-star-half {
+    color: yellowgreen;
+    padding: 3% 0;
+}
+
+.card-title,
+.price {
+    font-weight: 700;
+}
+
+.card {
+    background: yellow;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.card:hover {
+    background: lawngreen;
+}
+
+.form-control {
+    width: 80px;
+}
+
+.products h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 80px;
+    padding: 10px;
+    margin-left:50px;
+}
+
+.btn,
+.option-btn,
+.delete-btn {
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover,
+.option-btn:hover,
+.delete-btn:hover {
+    background: black;
+    color: aliceblue;
+}
+
+.btn {
+    background-color: rgb(43, 143, 43);
+    margin-top: 10px;
+}
+
+.delete-btn {
+    background-color: red;
+}
+
+.option-btn {
+    background-color: orange;
+}
+
+.container .user-profile {
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.container .user-profile p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.container .user-profile p span {
+    color: blue;
+}
+
+.container .user-profile .flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.msg {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 10px;
+    background: white;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 2px solid black;
+    color: black;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.shopping-cart{
+    margin-left: 100px; 
+    margin-bottom: 20px;
+    
+}
+.shopping-cart h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 420px;
+    padding: 20px;
+}
+.container .shopping-cart table{
+    width:80%;
+    margin-left: 100px;
+    text-align: center;
+    border:2px solid black;
+    border-radius: 5px;
+    box-shadow:4px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.shopping-cart  table thead th{
+    background: grey;
+    color:white;
+    padding:10px;
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
+.shopping-cart  table .table-bottom td{
+    background-color: rgb(163, 161, 161);
+    padding:8px;
+    font-weight: 600;
+    
+}
+.shopping-cart table tr td input[type="number"]
+{
+    width:100px;
+    border:2px solid black;
+    padding:5px 14px;
+    font-size: 15px;    
+}
+.shopping-cart .cart-btn{
+   margin-top: 18px;
+   text-align: center;
+}
+.shopping-cart  .disabled{
+    pointer-events: none;
+    background-color: red;
+    opacity: .5;
+    user-select: none;
+}
